@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get("/unlucky_numbers", { :controller => "fortunes", :action => "unlucky" })
 
   # PART 1: STATIC ROUTES
-
+  #comment
   # Uncomment each route below ONE AT A TIME and debug.
 
   get("/zodiacs/aries",       { :controller =>  "zodiacs",  :action =>  "ram" })
